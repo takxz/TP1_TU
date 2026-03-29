@@ -1,0 +1,1 @@
+executer les tests :python -m pytest tests -q
