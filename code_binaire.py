@@ -53,7 +53,7 @@ class CodeBinaire:
         if len(self.bits) > 1:
             del self.bits[index]
         else:
-            raise AuMoinsUnBitException("Le code binaire doit contenir au moins un bit.")
+            raise AuMoinsUnBitErreur("Le code binaire doit contenir au moins un bit.")
 
         
     def __iter__(self):
