@@ -64,7 +64,7 @@ class CodeBinaire:
             return self.bits == other.bits
         return False
 
-#test
+#test1
 
 
 
